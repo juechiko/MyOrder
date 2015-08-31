@@ -13,15 +13,16 @@ import java.util.ArrayList;
  * @author Administrator
  */
 public class Order {
-    int id;
-    String CustomerName;
-    String CustomerTel;
-    ArrayList<OrderDetail> Detail;
+    public int id;
+    public String CustomerName;
+    public String CustomerTel;
+    public ArrayList<OrderDetail> Detail;
     
     public Order(int id, String CN, String CT)
     {
         this.id = id;
         this.CustomerName = CN;
-        this.CustomerTel = CT;        
+        this.CustomerTel = CT;    
+        Detail = new ArrayList<OrderDetail>();        
     }
 }
