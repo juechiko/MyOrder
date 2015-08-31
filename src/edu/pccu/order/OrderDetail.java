@@ -13,9 +13,9 @@ import java.util.ArrayList;
  * @author Administrator
  */
 public class OrderDetail {
-    int id;
-    String ItemName;
-    int num;
+    public int id;
+    public String ItemName;
+    public int num;
     public OrderDetail(int id, String IN, int num)
     {
         this.id = id;

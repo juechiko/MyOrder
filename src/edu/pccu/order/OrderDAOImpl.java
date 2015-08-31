@@ -16,7 +16,11 @@ public class OrderDAOImpl
 
     @Override
     public void add(Order o) {
-        
+        System.out.println(o.id + "," + o.CustomerName + "," + o.CustomerTel);
+        for (OrderDetail od : o.Detail)
+        {
+            System.out.println(od.id + "," + od.ItemName + "," + od.num);
+        }
     }
     
 }
