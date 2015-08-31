@@ -16,4 +16,10 @@ public class OrderDetail {
     int id;
     String ItemName;
     int num;
+    public OrderDetail(int id, String IN, int num)
+    {
+        this.id = id;
+        this.ItemName = IN;
+        this.num = num;
+    }
 }

@@ -17,4 +17,11 @@ public class Order {
     String CustomerName;
     String CustomerTel;
     ArrayList<OrderDetail> Detail;
+    
+    public Order(int id, String CN, String CT)
+    {
+        this.id = id;
+        this.CustomerName = CN;
+        this.CustomerTel = CT;        
+    }
 }
